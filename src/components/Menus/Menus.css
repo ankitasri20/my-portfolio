@@ -11,7 +11,6 @@
 .nav-link {
     color: white;
     margin-top: 30px;
-    /* text-align: center; */
     margin-left: 25px; ;
 }
 .nav-link{
@@ -19,7 +18,7 @@
     cursor: pointer;
 }
 .nav-link svg {
-    margin-right: 10px;
+    margin-right: 13px;
 }
 .nav-link:hover{
     color: #f29f67;
