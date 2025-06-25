@@ -1,5 +1,6 @@
 import About from "./About/About.js";
 import Layout from "./components/Layout";
+import Education from "./Education/Education.js";
 import Project from "./Project/Project.js";
 import Techstack from "./Techstack/Techstack.js";
 
@@ -10,8 +11,10 @@ function App() {
       <Layout/>
       <div className="container">
         <About/>
+        <Education/>
         <Techstack/>
-        {/* <Project/> */}
+        <Project/>
+
       </div>
     </>
   );
