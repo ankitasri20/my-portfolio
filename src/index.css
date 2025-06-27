@@ -1,5 +1,22 @@
-body {
+/* body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+} */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Light Theme */
+body.light-theme {
+  background-color: #f9f9f9;
+  color: #121212;
+}
+
+/* Dark Theme */
+body.dark-theme {
+  background-color: #1e1e1e;
+  color: #f1f1f1;
 }

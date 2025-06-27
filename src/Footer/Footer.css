@@ -1,0 +1,75 @@
+/* Toggle Theme Block Above Footer */
+.theme-toggle-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.theme-toggle-btn {
+  width: 80px;
+  height: 40px;
+  border-radius: 25px;
+  border: 2px solid #8aaae5;
+  background: linear-gradient(to right, #1e1e5a, #1a1a3d);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  outline: none;
+}
+
+.theme-toggle-btn.active {
+  justify-content: flex-end;
+}
+
+.theme-toggle-btn span {
+  font-size: 20px;
+}
+
+.toggle-label {
+  font-size: 13px;
+  color: #aaa;
+  margin-top: 5px;
+}
+
+/* Footer Layout */
+.footer-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0b0b1d;
+  margin-left: 150px;
+  color: #f1f1f1;
+  padding: 15px 30px;
+  font-size: 14px;
+  flex-wrap: wrap;
+}
+
+.footer-left {
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.footer-img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.footer-name {
+  font-weight: 600;
+  color: #fffacd;
+  font-size: 14px;
+}
+
+.footer-right {
+  font-size: 13px;
+  color: #ccc;
+}

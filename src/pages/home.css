@@ -39,3 +39,32 @@
     opacity: 80%;
     transition: 1s;
 }
+/* .social-media {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  font-size: 24px;
+} */
+/* 
+.social-media a {
+  color: #ffffff;
+  transition: transform 0.3s, color 0.3s;
+} */
+
+/* .social-media a:hover {
+  transform: scale(1.2);
+  color: #00d8ff; /* or any accent color you want */
+/* }  */
+
+/* <div className="social-media">
+            <a href="https://www.linkedin.com/in/ankita-kumari-023609249/" target="_blank" rel="noopener noreferrer">
+              <i className="bx bxl-linkedin"></i>
+            </a>
+            <a href="https://github.com/ankitasri20" target="_blank" rel="noopener noreferrer">
+              <i className="bx bxl-github"></i>
+            </a>
+            <a href="mailto:vermaankita0420@gmail.com">
+              <i className="bx bxl-gmail"></i>
+            </a>
+          </div> */
