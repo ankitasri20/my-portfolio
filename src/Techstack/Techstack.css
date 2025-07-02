@@ -1,6 +1,7 @@
 .techstack{
     padding-left: 130px;
     margin-top: 60px;
+    margin-left: 0px;
 
 }
 .techstack hr{
@@ -26,9 +27,21 @@
 
 .techstack .card:hover{
    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-   background: #138781;
-   color: white;
+   background: rgb(150, 99, 161);
+   /* color: white; */
    border: none;
    transition: 1s;
    
+}
+.tech-icon {
+  margin-right: 10px;
+}
+.card {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+.card h5 {
+  margin-top: 5px;
+  font-weight: 500;
 }

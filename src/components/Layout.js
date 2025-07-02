@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import Home from '../pages/Home.js';
+import Homee from '../pages/Homee.js';
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 import { MdKeyboardDoubleArrowLeft } from "react-icons/md";
 import "./Layout.css";
@@ -30,7 +30,7 @@ const Layout = () => {
                 <Menus toggle={toggle}/>
             </div>
             <div className='container'>
-               <Home/>
+               <Homee/>
              </div> 
             </div>
     </>

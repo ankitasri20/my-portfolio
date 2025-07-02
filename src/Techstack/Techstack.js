@@ -21,7 +21,8 @@ const Techstack = () => {
                         <div className='card-body'>
                             <div className='media d-flex justify-content-center'>
                                 <div className='align-self-center'>
-                                    <tech.icon className='tech-icon'/>
+                                    {/* <tech.icon className='tech-icon'/> */}
+                                    <tech.icon className='tech-icon' style={{ color: tech.color, fontSize: "30px" }} />
                                 </div>
                                 <div className='media-body'>
                                     <h5>{tech.name}</h5>

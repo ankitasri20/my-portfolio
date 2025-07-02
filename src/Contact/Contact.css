@@ -144,3 +144,39 @@
   color: #ffffff;
   transform: scale(1.1);
 }
+.info-item .social-media {
+  display: flex;
+  gap: 16px;
+  margin-top: 15px;
+  align-items: center;
+}
+
+.info-item .social-media a {
+  text-decoration: none;
+  background-color: #e1e3e3;
+  font-size: 24px;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+}
+
+.info-item .social-media a:hover {
+  transform: scale(1.1);
+}
+
+/* Brand colors */
+.info-item .social-media .bxl-linkedin {
+  color: #0077b5;
+}
+
+.info-item .social-media .bxl-github {
+  color: #333;
+}
+
+.info-item .social-media .bxl-gmail {
+  color: #d14836;
+}
