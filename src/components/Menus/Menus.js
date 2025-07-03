@@ -2,6 +2,7 @@ import React from "react";
 import "./Menus.css";
 import profile from "../../Assets/profile_img.jpg";
 import { IoHome } from "react-icons/io5";
+import { Link } from "react-router-dom";
 import {
   FcAbout,
   FcBiotech,
@@ -23,45 +24,49 @@ const Menus = ({ toggle }) => {
           </div>
           <div className="nav-items">
             <div className="nav-item">
-              <div className="nav-link">
+              {/* <div className="nav-link">
                 <FcHome />
                 Home
-              </div>
+              </div> */}
+              <Link to="/" className="nav-link">
+                <FcHome />
+                Home
+              </Link>
 
-              <div className="nav-link">
+              <Link to="/about" className="nav-link">
                 <FcAbout />
                 About
-              </div>
+              </Link>
 
-              <div className="nav-link">
+              <Link to="/experience" className="nav-link">
                 <FcBusinessman />
                 Work experience
-              </div>
+              </Link>
 
-              <div className="nav-link">
+              <Link to="/techstack" className="nav-link">
                 <FcBiotech />
                 Tech Stack
-              </div>
+              </Link>
 
-              <div className="nav-link">
+              <Link to="/education" className="nav-link">
                 <FcReading />
                 Education
-              </div>
+              </Link>
 
-              <div className="nav-link">
+              <Link to="/projects" className="nav-link">
                 <FcVideoProjector />
                 Projects
-              </div>
+              </Link>
 
-              <div className="nav-link">
+              <Link to="/testimonial" className="nav-link">
                 <FcVoicePresentation />
-                Testimonoal
-              </div>
+                Testimonial
+              </Link>
 
-              <div className="nav-link">
+              <Link to="/contact" className="nav-link">
                 <FcBusinessContact />
                 Contact
-              </div>
+              </Link>
             </div>
 
   
@@ -71,37 +76,37 @@ const Menus = ({ toggle }) => {
         <>
            <div className="nav-items">
             <div className="nav-item">
-              <div className="nav-link">
+              <Link to="/" className="nav-link">
                 <FcHome title="Home" />
-              </div>
+              </Link>
 
-              <div className="nav-link">
-                <FcAbout  title="About" />
-              </div>
+              <Link to="/about" className="nav-link">
+                <FcAbout title="About" />
+              </Link>
 
-              <div className="nav-link">
-                <FcBusinessman title="Work experience"/>
-              </div>
+              <Link to="/experience" className="nav-link">
+                <FcBusinessman title="Work Experience" />
+              </Link>
 
-              <div className="nav-link">
-                <FcBiotech  title="Tech Stack" />
-              </div>
+              <Link to="/techstack" className="nav-link">
+                <FcBiotech title="Tech Stack" />
+              </Link>
 
-              <div className="nav-link">
-                <FcReading title=" Education" />
-              </div>
+              <Link to="/education" className="nav-link">
+                <FcReading title="Education" />
+              </Link>
 
-              <div className="nav-link">
-                <FcVideoProjector title="Projects"/>
-              </div>
+              <Link to="/projects" className="nav-link">
+                <FcVideoProjector title="Projects" />
+              </Link>
 
-              <div className="nav-link">
-                <FcVoicePresentation  title="Testimonoal"/>
-              </div>
+              <Link to="/testimonial" className="nav-link">
+                <FcVoicePresentation title="Testimonial" />
+              </Link>
 
-              <div className="nav-link">
-                <FcBusinessContact title="Contact"/>
-              </div>
+              <Link to="/contact" className="nav-link">
+                <FcBusinessContact title="Contact" />
+              </Link>
             </div>
           </div> 
         </>

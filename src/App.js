@@ -6,31 +6,36 @@ import Footer from "./Footer/Footer.js";
 import Project from "./Project/Project.js";
 import Techstack from "./Techstack/Techstack.js";
 import Workexp from "./workexp/Workexp.js";
-
+import Homee from "./pages/Homee.js"
+import Resume from "./Resume/Resume.js"
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <>
-       <Layout/>
+       {/* <Layout/>
         <div className="container">
-        <About/> 
+        <About/>  */}
         {/* <Education/> */}
-        <Techstack/> 
-        <Project/>
+        {/* <Techstack/> 
+        <Project/> */}
         {/* <Workexp/> */}
-        <Contact/>
+        {/* <Contact/>
       </div>
-      <Footer/>
-      {/* <Router>
+      <Footer/> */}
+
+
+      <Router>
       <Routes>
         <Route path="/" element={<Homee />} />
+        <Route path="/About" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/education" element={<Education />} />
         <Route path="/resume" element={<Resume />} />
         <Route path="/projects" element={<Project />} />
-        <Route path="/experience" element={<WorkExp />} />
+        <Route path="/experience" element={<Workexp/>} />
       </Routes>
-    </Router> */}
+    </Router>
     </>
   );
 }
