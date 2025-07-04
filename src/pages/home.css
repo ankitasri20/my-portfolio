@@ -35,7 +35,7 @@
     transition: 1s;
 } */
 .home-buttons .btn-cv{
-    background: #9a5bec;
+    background: rgb(150, 99, 161);
     color: white;
     margin-left: 1px;
     margin-top: 0px;
@@ -100,8 +100,10 @@
 .github,
 .gmail {
   background-color: #e1e3e3;
-  width: 35px;
-  height: 35px;
+  border: 2px solid rgb(150, 99, 161);
+  /* font-size: 240px; */
+  width: 55px;
+  height: 55px;
   border-radius: 50%;
   /* color: white; */
   display: flex;

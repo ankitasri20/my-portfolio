@@ -4,14 +4,15 @@
 }
 
 .project hr {
-  color: #138781;
+  color: rgb(143, 46, 165);
   width: 400px;
   margin: 10px auto;
+  border-bottom: 2px solid rgb(60, 255, 222);
 }
 
 .project h2 {
   font-weight: bold;
-  color: #138781;
+  color: rgb(143, 46, 165);
 }
 
 #ads {
@@ -19,6 +20,7 @@
 }
 #ads .card {
   /* margin-bottom: 30px; */
+  border: 3px solid rgb(150, 99, 161);
   
 }
 #ads .col-md-4 {
@@ -34,7 +36,7 @@
   position: absolute;
   left: -10px;
   top: -20px;
-  background: #f29f67;
+  background: rgb(171, 105, 186);
   text-align: center;
   border-radius: 30px 30px 30px 30px;
   color: black;
@@ -58,7 +60,7 @@
   border-radius: 10px;
 }
 .card-detail-badge {
-  background-color: #e0b50f;
+  background-color: rgb(60, 205, 171);
   text-align: center;
   border-radius: 30px 30px 30px 30px;
   color: black;
@@ -74,7 +76,7 @@
 }
 
 .project .card:hover {
-  background-color: white;
+  background-color: rgb(177, 147, 184);
   border-radius: 4px;
   box-shadow: 12px 15px 20px 0px rgba(46, 61, 73, 0.15);
   transition: all 1s ease;
@@ -86,7 +88,7 @@
   height: 40px;
   display: block;
   text-align: center;
-  background-color: #138781;
+  background-color: rgb(143, 46, 165);
   color: white;
   border-radius: 80px;
   font-size: 16px;
@@ -99,9 +101,9 @@
 
 .ad-btn:hover {
   background-color: white;
-  color: #138781;
+  color: rgb(143, 46, 165);
   background: transparent;
-  border: 2px solid #138781;
+  border: 2px solid rgb(143, 46, 165);
   transition: all 0.5s ease;
   box-shadow: 12px 15px 20px 0px rgba(46, 61, 73, 0.15);
 }

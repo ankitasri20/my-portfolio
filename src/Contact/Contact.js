@@ -4,6 +4,11 @@ import { FiPhone, FiMail, FiMapPin } from "react-icons/fi";
 
 const Contact = () => {
   return (
+    <div className="continer Contact" id="contact">
+        <h2 className="col-12 mt-3 mb-1 text-center text-uppercase ">
+          CONTACT
+        </h2>
+    <hr/>
     <section className="contact-section" id="contact">
       <div className="contact-container">
         {/* Left Column */}
@@ -58,7 +63,9 @@ const Contact = () => {
           </form>
         </div>
       </div>
+
     </section>
+    </div>
   );
 };
 

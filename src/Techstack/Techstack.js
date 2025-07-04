@@ -7,7 +7,10 @@ const Techstack = () => {
     <>
       <div className='container techstack'>
         <h2 className='col-12 mt-3 mb-1 text-center text-uppercase'>Technology Stack</h2>
+
         <hr/>
+
+        
         <p className='pb-3 text-center'>
             👉 including programming Language , frameworks, database,front-end and React APIs
         </p>

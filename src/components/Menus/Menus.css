@@ -6,6 +6,7 @@
     vertical-align: middle;
     margin: 0 auto;
     margin-top: 20px;
+    border: 4px solid rgb(150, 99, 161); 
 }
 .nav-link {
     color: white;
@@ -20,5 +21,5 @@
     margin-right: 13px;
 }
 .nav-link:hover{
-    color: #f29f67;
+    color: rgb(150, 99, 161);
 }

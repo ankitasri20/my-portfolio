@@ -26,10 +26,11 @@
     align-items: center;
 }
 .about-content h1 {
-    color: gray;
+    color: rgb(150, 99, 161);
     font-family: cursive;
-    border-bottom: 2px solid gray;
+    border-bottom: 2px solid rgb(60, 255, 222);
     text-align: center;
+    
 }
 .about-content p {
     text-align: justify;

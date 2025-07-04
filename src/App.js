@@ -8,34 +8,33 @@ import Techstack from "./Techstack/Techstack.js";
 import Workexp from "./workexp/Workexp.js";
 import Homee from "./pages/Homee.js"
 import Resume from "./Resume/Resume.js"
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as  Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <>
-       {/* <Layout/>
-        <div className="container">
-        <About/>  */}
+      <Layout/>
+      <div className="container">
+        <About/> 
         {/* <Education/> */}
-        {/* <Techstack/> 
-        <Project/> */}
+        <Techstack/> 
+        <Project/>
         {/* <Workexp/> */}
-        {/* <Contact/>
+        <Contact/>
       </div>
-      <Footer/> */}
+      <Footer/>
 
-
-      <Router>
-      <Routes>
+      {/* <Routes>
         <Route path="/" element={<Homee />} />
         <Route path="/About" element={<About />} />
+        <Route path="/Layout" element={<Layout/>}/>
         <Route path="/contact" element={<Contact />} />
         <Route path="/education" element={<Education />} />
         <Route path="/resume" element={<Resume />} />
         <Route path="/projects" element={<Project />} />
         <Route path="/experience" element={<Workexp/>} />
-      </Routes>
-    </Router>
+      </Routes> */}
+    
     </>
   );
 }

@@ -16,12 +16,6 @@ const Project = () => {
         <hr />
         <p className="pb-3 text-center">
           here are my top recent project with live links and source code.
-          here are my top recent project with live links and source code
-          here are my top recent project with live links and source code
-          here are my top recent project with live links and source code
-          here are my top recent project with live links and source code
-          here are my top recent project with live links and source code
-          here are my top recent project with live links and source code
         </p>
         {/* card design */}
         <div className="row" id="ads">
@@ -55,7 +49,7 @@ const Project = () => {
           <div className="col-md-4">
             <div className="card rounded">
               <div className="card-image">
-                <span className="card-notify-badge">Full Stack</span>
+                <span className="card-notify-badge">Android App</span>
                 <img src={image2} alt="project" style={{ height: "250px", width: "100%", objectFit: "cover" }}  />
               </div>
               <div className="card-image-overly m-auto mt-3">
@@ -82,7 +76,7 @@ const Project = () => {
             <div className="col-md-4">
             <div className="card rounded">
               <div className="card-image">
-                <span className="card-notify-badge">Full Stack</span>
+                <span className="card-notify-badge">Java</span>
                 <img src={image3} alt="project" style={{ height: "250px", width: "100%", objectFit: "cover" }}   />
               </div>
               <div className="card-image-overly m-auto mt-3">
@@ -108,7 +102,7 @@ const Project = () => {
             <div className="col-md-4">
             <div className="card rounded">
               <div className="card-image">
-                <span className="card-notify-badge">Full Stack</span>
+                <span className="card-notify-badge">ML</span>
                 <img src={image4} alt="project" style={{ height: "250px", width: "100%", objectFit: "cover" }} />
               </div>
               <div className="card-image-overly m-auto mt-3">
@@ -134,7 +128,7 @@ const Project = () => {
             <div className="col-md-4">
             <div className="card rounded">
               <div className="card-image">
-                <span className="card-notify-badge">Full Stack</span>
+                <span className="card-notify-badge">Python</span>
                 <img src={image5} alt="project" style={{ height: "250px", width: "100%", objectFit: "cover" }} />
               </div>
               <div className="card-image-overly m-auto mt-3">
