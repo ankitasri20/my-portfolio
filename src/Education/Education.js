@@ -115,7 +115,7 @@ const educationData = [
 
 const Education = () => {
   return (
-    <div className="education-section" id="education">
+    <div className="education-section" id="Education">
       <h2 className="section-title">EDUCATION DETAILS</h2>
       <div className="timeline">
         {educationData.map((item, index) => (

@@ -119,6 +119,7 @@
 
 import React from "react";
 import "./Menus.css";
+import { Link } from "react-scroll";
 import profile from "../../Assets/profile_img.jpg";
 import { IoHome } from "react-icons/io5";
 import {
@@ -143,43 +144,72 @@ const Menus = ({ toggle }) => {
           <div className="nav-items">
             <div className="nav-item">
               <div className="nav-link">
+                <Link to="home" spy={true} smooth={true} offset={-100} duration={100}>
                 <FcHome />
                 Home
+                </Link>
+                
               </div>
 
               <div className="nav-link">
+                <Link to="about" spy={true} smooth={true} offset={-100} duration={100}>
                 <FcAbout />
-                About
+                 About
+                </Link>
+               
               </div>
 
               <div className="nav-link">
+                <Link to="Work-experience" spy={true} smooth={true} offset={-100} duration={100}>
                 <FcBusinessman />
-                Work experience
+                 Work experience
+                </Link>
               </div>
 
               <div className="nav-link">
+                <Link to="tech-stack" spy={true} smooth={true} offset={-100} duration={100}>
                 <FcBiotech />
-                Tech Stack
+                 Tech Stack
+                </Link>
+                
+                
               </div>
 
               <div className="nav-link">
+                <Link to="Education" spy={true} smooth={true} offset={-100} duration={100}>
                 <FcReading />
-                Education
+                 Education
+                </Link>
+                
+            
               </div>
 
               <div className="nav-link">
+                <Link to="Projects" spy={true} smooth={true} offset={-100} duration={100}>
                 <FcVideoProjector />
                 Projects
+                </Link>
+                
+                
               </div>
 
               <div className="nav-link">
+                <Link to="Testimonoal" spy={true} smooth={true} offset={-100} duration={100}>
                 <FcVoicePresentation />
-                Testimonoal
+                 Testimonoal
+                </Link>
+
+                
+                
               </div>
 
               <div className="nav-link">
+                <Link to="Contact" spy={true} smooth={true} offset={-100} duration={100}>
                 <FcBusinessContact />
-                Contact
+                 Contact
+                </Link>
+                
+                
               </div>
             </div>
 
@@ -191,35 +221,53 @@ const Menus = ({ toggle }) => {
            <div className="nav-items">
             <div className="nav-item">
               <div className="nav-link">
-                <FcHome title="Home" />
+                 <Link to="home" spy={true} smooth={true} offset={-100} duration={100}>
+                <FcHome />
+                
+                </Link>
               </div>
 
               <div className="nav-link">
-                <FcAbout  title="About" />
+                <Link to="about" spy={true} smooth={true} offset={-100} duration={100}>
+                <FcAbout />
+                </Link>
               </div>
 
               <div className="nav-link">
-                <FcBusinessman title="Work experience"/>
+                <Link to="Work-experience" spy={true} smooth={true} offset={-100} duration={100}>
+                <FcBusinessman />
+                </Link>
               </div>
 
               <div className="nav-link">
-                <FcBiotech  title="Tech Stack" />
+                <Link to="tech-stack" spy={true} smooth={true} offset={-100} duration={100}>
+                <FcBiotech />
+                </Link>
               </div>
 
               <div className="nav-link">
-                <FcReading title=" Education" />
+                <Link to="Education" spy={true} smooth={true} offset={-100} duration={100}>
+                <FcReading />
+                </Link>
               </div>
 
               <div className="nav-link">
-                <FcVideoProjector title="Projects"/>
+                <Link to="Projects" spy={true} smooth={true} offset={-100} duration={100}>
+                <FcVideoProjector />
+                </Link>
               </div>
 
               <div className="nav-link">
-                <FcVoicePresentation  title="Testimonoal"/>
+               <Link to="Testimonoal" spy={true} smooth={true} offset={-100} duration={100}>
+                <FcVoicePresentation />
+                </Link>
+
               </div>
 
               <div className="nav-link">
-                <FcBusinessContact title="Contact"/>
+                <Link to="Contact" spy={true} smooth={true} offset={-100} duration={100}>
+                <FcBusinessContact />
+                </Link>
               </div>
             </div>
           </div> 

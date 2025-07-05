@@ -9,7 +9,7 @@ import image5 from "../Assets/telegram-chatbot-1.png"
 const Project = () => {
   return (
     <>
-      <div className="continer project" id="projects">
+      <div className="continer project" id="Projects">
         <h2 className="col-12 mt-3 mb-1 text-center text-uppercase">
           TOP RECENT PROJECTS
         </h2>

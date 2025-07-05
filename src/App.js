@@ -9,10 +9,14 @@ import Workexp from "./workexp/Workexp.js";
 import Homee from "./pages/Homee.js"
 import Resume from "./Resume/Resume.js"
 import { BrowserRouter as  Routes, Route } from "react-router-dom";
-
+import MobileNav from "./components/MobileNav/MobileNav.js";
+import { ToastContainer } from 'react-toastify';
+import "react-toastify/dist/ReactToastify.css";
 function App() {
   return (
     <>
+    <ToastContainer/>
+    <MobileNav/>
       <Layout/>
       <div className="container">
         <About/> 
