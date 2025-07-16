@@ -7,16 +7,16 @@
 .home-content h2 {
     padding: 10px;
     padding-top: 50px;
-    /* margin-left: 150px; */
+    margin-left: 150px;
 }
 .home-content h1 {
     color: #f29f67;
     padding: 0px;
-    /* margin-left: 150px; */
+    margin-left: 150px;
   
 }
 .home-buttons {
-    margin-left: 0px;
+     margin-left: 150px;
     align-items: start;
       display: flex;
       flex-direction: column;

@@ -1,21 +1,29 @@
 import React, { useState } from "react";
 import "./Contact.css";
-import { toast } from "react-toastify";
+import axios from "axios";
+import { toast , ToastContainer  } from "react-toastify";
+import { DiGoogleCloudPlatform } from "react-icons/di";
 
 const Contact = () => {
   const [name, setname] = useState("");
   const [email, setemail] = useState("");
   const [msg, setmsg] = useState("");
 
-  const handlesubmit = (e) => {
+  const handlesubmit = async (e) => {
     e.preventDefault();
-    if (!name || !email || !msg) {
-      toast.error("Please fill in all fields.");
-      return;
+    try {
+      if (!name || !email || !msg) {
+        toast.error("Please fill in all fields.");
+        return;
     }
 
-    // Add real email sending logic here if needed
-    toast.success("Message submitted!");
+    toast.success("Form submitted successfully!");
+
+    const res = await axios.post('')
+    } catch (error) {
+      console.log(error);
+      toast.error("Something went wrong!");
+    }
   };
 
   return (
