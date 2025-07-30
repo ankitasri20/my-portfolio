@@ -9,7 +9,7 @@ In the project directory, you can run:
 ### `npm start`
 
 Runs the app in the development mode.\
-Open ankitakumari.netlify.app
+Open [ankitakumari.netlify.app]
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
