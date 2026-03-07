@@ -17,7 +17,6 @@ const Footer = () => {
     localStorage.setItem("darkMode", updated);
     document.body.className = updated ? "dark-theme" : "light-theme";
   };
-
   return (
     <>
       <div className="theme-toggle-wrapper">
@@ -25,9 +24,9 @@ const Footer = () => {
           className={`theme-toggle-btn ${darkMode ? "active" : ""}`}
           onClick={toggleTheme}
         >
-         <span className="theme-icon">
+         <div className="theme-icon" onClick={toggleTheme}>
             {darkMode ? "🌙" : "☀️"}
-          </span>
+          </div>
         </button>
         <p className="toggle-label">Toggle Theme</p>
       </div>

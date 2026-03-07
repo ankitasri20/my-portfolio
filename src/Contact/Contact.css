@@ -2,14 +2,7 @@
   padding: 50px 20px;
   font-family: 'Courier New', Courier, monospace;
   color: #d1d1d1;
-  /* border-bottom: 2px solid rgb(60, 255, 222); */
 }
-/* .contact-heading {
-  border-bottom: 2px solid rgb(60, 255, 222);
-  display: inline-block; /* so border fits content width */
-  /* padding-bottom: 8px;
-  margin-bottom: 20px;
-} */ 
 .Contact hr{
     color: rgb(60, 205, 171);
     border-bottom: 2px solid rgb(41, 176, 154);
@@ -48,6 +41,13 @@
   flex: 1;
   min-width: 320px;
   max-width: 500px;
+  /* background-color: #1e1f21;
+  border: 2px solid rgb(150, 99, 161);
+  border-radius: 12px;
+  padding: 30px;
+  flex: 1;
+  min-width: 320px;
+  max-width: 500px; */
 }
 
 .contact-title {
@@ -62,7 +62,7 @@
   font-size: 16px;
   text-align: center;
   margin-bottom: 25px;
-  color: rgb(143, 46, 165);
+  color: rgb(219, 215, 220);
 }
 
 .info-block {

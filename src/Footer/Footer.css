@@ -65,11 +65,11 @@
 
 .footer-name {
   font-weight: 600;
-  color: #fffacd;
+  color: rgb(150, 99, 161);
   font-size: 14px;
 }
 
 .footer-right {
   font-size: 13px;
-  color: #ccc;
+  color:  rgb(150, 99, 161);
 }

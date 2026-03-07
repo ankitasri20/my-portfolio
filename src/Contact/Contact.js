@@ -27,6 +27,8 @@ const Contact = () => {
   };
 
   return (
+    <div id="light">
+  <section className="contact-section"> 
     <div className="container Contact" id="Contact">
       <h2 className="col-12 mt-3 mb-1 text-center text-uppercase">CONTACT</h2>
       <hr />
@@ -96,7 +98,8 @@ const Contact = () => {
           </div>
         </div>
       </section>
-    </div>
+    </div> </section>
+</div>
   );
 };
 
