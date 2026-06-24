@@ -2,7 +2,6 @@ import React from "react";
 import profile from "../Assets/profile_img.jpg";
 import "./about.css";
 
-
 const About = () => {
   return (
     <>
