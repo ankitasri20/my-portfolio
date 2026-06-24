@@ -13,6 +13,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import MobileNav from "./components/MobileNav/MobileNav.js";
 import { ToastContainer } from 'react-toastify';
 import "react-toastify/dist/ReactToastify.css";
+import React from "react";
 function App() {
   return (
     <>
