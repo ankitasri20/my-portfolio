@@ -2,25 +2,7 @@ import { BsFiletypeHtml, BsFiletypeCss, BsBootstrap } from "react-icons/bs";
 import { FaNodeJs } from "react-icons/fa";
 import { TbBrandNextjs } from "react-icons/tb";
 import { FaCentos } from "react-icons/fa";
-// import {
-//   SiJavascript,
-//   SiMui,
-//   SiReact,
-//   SiTailwindcss,
-//   SiFigma,
-//   SiAdobexd,
-//   SiAdobephotoshop,
-//   SiMongodb,
-//   SiMysql,
-//   SiTypescript,
-//   SiGithub,
-//   SiWordpress,
-//   SiFirebase,
-//   SiDocker,
-//   SiExpress,
-//   SiNginx,
-//   SiAngular,
-// } from "react-icons/si";
+
 import { 
   SiHtml5, 
   SiCss3, 
